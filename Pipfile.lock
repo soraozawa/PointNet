@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "99b50b64c2e1fef8c19801a58fc4bf1e610ddd93f6ae3fd8faa50f489704ff2e"
+            "sha256": "a2e9c308e05433331de7c35ca1ea3f113ec884b538b2189c8fb9fc50f5516c4e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -211,6 +211,10 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==9.3.0"
+        },
+        "pointnet": {
+            "editable": true,
+            "path": "."
         },
         "psutil": {
             "hashes": [

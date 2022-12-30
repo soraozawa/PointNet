@@ -1,3 +1,4 @@
+import torch
 import torch.nn as nn
 from torch_geometric.data import DataLoader
 from torch_geometric.nn import global_max_pool
@@ -18,7 +19,7 @@ class SymmFunction(nn.Module):
             nn.Linear(128, 521),
         )
 
-    def forward(self, barch):
+    def forward(self, batch: torch.tensor) -> torch.tensor:
         x = self.shared_mlp(batch.pos)
         x - global_max_pool(x)
         return x
