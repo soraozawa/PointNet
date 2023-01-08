@@ -4,13 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-install = "*"
 torch = "*"
 torchvision = "*"
-torchaudio = "*"
-torch-geometric = "*"
-torch-sparse = "*"
-torch-scatter = "*"
+tensorboard = "*"
 pointnet = {editable = true, path = "."}
 
 [dev-packages]
