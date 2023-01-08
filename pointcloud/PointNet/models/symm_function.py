@@ -3,7 +3,7 @@ import torch.nn as nn
 from torch_geometric.data import DataLoader
 from torch_geometric.nn import global_max_pool
 
-from PointNet.data.load_ModelNet import load_ModelNet
+from pointcloud.PointNet.data.load_ModelNet import load_ModelNet
 
 
 class SymmFunction(nn.Module):
