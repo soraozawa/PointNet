@@ -8,6 +8,10 @@ torch = "*"
 torchvision = "*"
 tensorboard = "*"
 pointnet = {editable = true, path = "."}
+torch-geometric = "*"
+torch-sparse = "*"
+torch-scatter = "*"
+torchaudio = "*"
 
 [dev-packages]
 
