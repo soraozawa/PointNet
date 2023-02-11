@@ -12,6 +12,7 @@ torch-geometric = "*"
 torch-sparse = "*"
 torch-scatter = "*"
 torchaudio = "*"
+open3d = "*"
 
 [dev-packages]
 
