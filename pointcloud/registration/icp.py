@@ -17,6 +17,7 @@ def calc_covariance_matrix(pcd1: np.ndarray, pcd2: np.ndarray)->np.ndarray:
     covar_mat = np.zeros((3,3))
     for source_point, neighbor_point in zip(pcd1, pcd2):
         covar_mat += np.dot(source_point.reshape(-1, 1), neighbor_point.reshape(1, -1))
+
     covar_mat /= len(pcd1)
     covar_mat -= np.dot(source_pcd_mean.reshape(-1, 1), neighbor_pcd_mean.reshape(1, -1))
 
